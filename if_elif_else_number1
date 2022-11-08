@@ -1,0 +1,43 @@
+#!/bin/bash -x
+
+a=1
+b=2
+c=3
+d=4
+e=5
+f=6
+g=7 
+h=8
+i=9
+randomCheck=$((RANDOM%10))
+
+if [ $a -eq $randomCheck ]
+then
+	echo "one"
+elif [ $b -eq $randomCheck ]
+then
+	echo "Two"
+elif [ $c -eq $randomCheck ]
+then
+        echo "Three"
+elif [ $d -eq $randomCheck ]
+then
+        echo "four"
+elif [ $e -eq $randomCheck ]
+then
+        echo "Five"
+elif [ $f -eq $randomCheck ]
+then
+        echo "six"
+elif [ $g -eq $randomCheck ]
+then
+        echo "sevan"
+elif [ $h -eq $randomCheck ]
+then
+        echo "eight"
+elif [ $i -eq $randomCheck ]
+then
+        echo "Nine"
+else
+	"Thank you mam teaching us so nicely"
+fi
